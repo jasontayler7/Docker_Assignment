@@ -3,7 +3,7 @@ DAY 1 Docker
 Assignment 1
 1. Use official shell script to install and configure Docker on your control machine. 
 
-Script - 
+![Script](https://github.com/lovedeepsh/Docker_Assignment/blob/master/day1/script)
 
 2. Start Docker service and check status of the same.
 ```

@@ -12,15 +12,16 @@ Assignment 1
 
 2. Run a container from nginx image and map container port 80 to system port 80.
 
-```        
+``` 
         $ docker run -itdp 80:80 nginx 
-```        
+```
 3. Display all mapped ports on nginx image.
 
 ```
         $ docker port a6228015efe3
-```        
+```
 
+![docker](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day3-images/day3-ques3.png)
 
 4. Run a docker container named "containexpose" from nginx image and expose port 80 of container to outer world without mapping it to any of system port.
         
@@ -75,3 +76,5 @@ $ docker exec -it 42e5245d58fb bash
 ```
 root@42e5245d58fb:/opt/webapp# ping mydb
 ```
+
+![docker](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day3-images/ping_mydb.png)

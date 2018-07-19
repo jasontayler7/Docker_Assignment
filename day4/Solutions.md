@@ -17,7 +17,7 @@ specify the default command to be run upon container creation as mentioned below
 ![Docker File](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day4-images/Docker%20file.png)
 ```
 
-![DockerFile]()
+![DockerFile](https://github.com/lovedeepsh/Docker_Assignment/blob/master/day4/Dockerfile1)
 
 
 3. Build image from Dockerfile. 
@@ -59,7 +59,7 @@ Assignment 2
 
 ![dockerfile 2](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day4-images/Dockerfile2.png)
 
-![DockerFile]()
+![DockerFile](https://github.com/lovedeepsh/Docker_Assignment/blob/master/day4/Dockerfile2)
 
 
 ```

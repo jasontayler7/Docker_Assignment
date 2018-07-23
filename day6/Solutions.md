@@ -7,31 +7,23 @@ Install docker-compose on your machine, if not already installed.
         $ sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
         $ sudo chmod +x /usr/local/bin/docker-compose
         ```
-![Docker installed]()
 
 Check docker-compose version.
 
         ```
         $ docker-compose --version
         ```
-![docker version]()
+![docker version](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day6-images/Docker-version.png)
 
 Create a directory named nginx in your root.
 
-        ```
-        $ mkdir nginx
-        ```
-![nginx created]()
-
-
-
-
 Switch to that directory and create a file named docker-compose.yaml
 
-       ```
+        ```
         $ mkdir nginx
         ```
-![nginx created]()
+![nginx created](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day6-images/nginxcreated.png)
+
 
 Use docker-compose version 2 to create docker-compose.yaml file.
 
@@ -49,7 +41,6 @@ Add another service named "web"
 
 Use image "nginx"
 
-Save docker-compose.yaml file and do docker-compose up.
 
        ```
        version: '2'
@@ -74,11 +65,15 @@ Save docker-compose.yaml file and do docker-compose up.
     ...
        ```
 
-![docker-compose-file]()
+![docker-compose-file](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day6-images/docker-compose-file.png)
+
+Save docker-compose.yaml file and do docker-compose up.
+
+![docker-compose-up](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day6-images/Docker-compose-up.png)
 
 Verify nginx service is up and is accessible on machine.
 
-![nginx-verification]()
+![nginx-verification](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day6-images/nginx.png)
 
 Stop and remove your docker container using docker-compose.
 
@@ -86,4 +81,4 @@ Stop and remove your docker container using docker-compose.
          $ docker-compose down
         ```
 
-![docker-compose-down]()
+![docker-compose-down](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day6-images/docker-compose-down.png)

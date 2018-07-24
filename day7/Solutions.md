@@ -65,20 +65,20 @@ volumes:
 wordpress_data:
 ```
 
-![docker-compose file]()
+![docker-compose file](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day7-images/docker-compose-file.png)
 
 save the file and build docker-compose.yaml and create containers for wordpress and db machine.
 
-![docker-compose run]()
+![docker-compose run](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day7-images/docker-run.png)
 
 Display currently bulit containers created using docker-compose.
 
-![display containers]()
+![display containers](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day7-images/display-containers.png)
 
 Stop and remove your docker container using docker-compose.
 
-![docker-compose-down]()
+![docker-compose-down](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day7-images/docker-compose-down.png)
 
 
 
-![verification]()
+![verification](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day7-images/verify.png)

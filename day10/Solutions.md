@@ -35,7 +35,7 @@ Container should be removed if it gets into exited state
 Run container in recently docker network 'my-net' 
 
                    ```
-                   $ docker run -itdp 84:8080 -v 'source=myvol,target=/usr/local/tomcat/webapps' --memory="512m"  --network=mynet springapp
+                   $ docker run -itp --rm 84:8080 -v 'source=myvol,target=/usr/local/tomcat/webapps' --memory="512m"  --network=mynet springapp
                    ```
 
 ![verify](https://github.com/lovedeepsh/Docker_Assignment/blob/master/Docker-day10-images/phalana.png)
